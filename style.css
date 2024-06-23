@@ -1,0 +1,79 @@
+.profile {
+    background-image: url("./public/the_way_of_kings.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.profile-pic {
+    min-height: 50px;
+    max-height: 250px;
+    border-radius: 25%;
+}
+
+.feature {
+    color: white;
+}
+
+.icon-square {
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+}
+
+li {
+    margin: 20px 20px;
+    font-size: 1.25rem;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+ul p {
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.profile {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    margin: 0px 40px;
+}
+
+.hobbies-header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.hobbies-header h1 {
+    font-size: 50pt;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-text {
+    font-size: 30pt;
+    text-align: center;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+}
